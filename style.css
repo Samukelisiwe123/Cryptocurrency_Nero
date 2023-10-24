@@ -300,17 +300,22 @@ border: none;
 }
 
 footer{
-    height: 60vh;
+    height: 70vh;
     background: #000;
-    justify-content: space-between;
+   
     color: #FFF;
     display: flex;
 }
-
-footer .logo{
-    display: flex;
+footer .logotext{
+    width: 68%;
     margin-left: 2rem;
     padding: 2rem;
+}
+footer .logotext .logo{
+    display: flex;
+    
+   
+   
 }
 
 footer .logo img{
@@ -327,21 +332,51 @@ footer .logo p{
     padding-left: 1rem;
 }
 footer .contactus{
-    margin-right: 4rem;
+    
     padding-top: 4rem;
+}
+
+footer .contactus h2{
+    color: #FFF;
+
+font-family: Poppins;
+font-size: 32px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
 }
 footer .contactus .form{
     display: flex;
     flex-direction: column;
+    
 }
 
 footer .contactus .form input{
-    width: 15rem;
-height: 3rem;
+    width: 25rem;
+height: 2rem;
 border: 0px solid #000;
 
 background: #FFF;
 border: none;
+}
+footer .contactus .form button{
+   
+    width: 150px;
+height: 50px;
+flex-shrink: 0;
+border-radius: 30px;
+background: #2696BA;
+border: none;
+color: #FFF;
+
+text-align: center;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-left: 15rem;
+
 }
 /* nav ul{
     display: flex;
