@@ -230,12 +230,14 @@ p{
     font-family: Poppins;
 }
 .sponsors{
-    display:flex
+    display:flex;
+    margin-right: 6rem;
+   margin-left: 6rem;
+    
 }
 .sponsors img{
-    width: 7rem;
-    margin-left: 4rem;
-    margin-right: 4rem;
+    width: 4rem;
+   
     margin-bottom: 15rem;
 }
 p{
@@ -300,9 +302,47 @@ border: none;
 footer{
     height: 60vh;
     background: #000;
-    
+    justify-content: space-between;
+    color: #FFF;
+    display: flex;
 }
 
+footer .logo{
+    display: flex;
+    margin-left: 2rem;
+    padding: 2rem;
+}
+
+footer .logo img{
+    
+    width: 120px;
+height: 135px;
+flex-shrink: 0;
+
+}
+
+footer .logo p{
+    color: #FFF;
+    padding-top:4rem;
+    padding-left: 1rem;
+}
+footer .contactus{
+    margin-right: 4rem;
+    padding-top: 4rem;
+}
+footer .contactus .form{
+    display: flex;
+    flex-direction: column;
+}
+
+footer .contactus .form input{
+    width: 15rem;
+height: 3rem;
+border: 0px solid #000;
+
+background: #FFF;
+border: none;
+}
 /* nav ul{
     display: flex;
     text-align: right;
