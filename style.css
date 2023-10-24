@@ -1,0 +1,321 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+  }
+nav{
+    background: rgb(255, 255, 255);
+    display:flex;
+    width: 100%;
+    height: 7rem;
+    display: flex;
+    align-items: center;
+    position: fixed;
+}
+
+nav img{
+    margin-left: 3rem;
+    width: 90px;
+    height: 101.25px;
+    flex-shrink: 0;
+    background:#ffffff;
+
+}
+
+
+
+nav  ul{
+    display: flex;
+    margin-left: 33rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 25px;
+}
+
+nav  ul li{
+    padding: 1rem;
+    list-style: none;
+    
+}
+
+nav  ul li a{
+    text-decoration: none;
+    color: #CB790B;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+}
+
+nav  ul li a button{
+    border-radius:20px;
+    width: 123px;
+    height: 30px;
+   background: #2696BA;
+   color: azure;
+   border: none;
+   
+}
+
+.Intro {
+    display: flex;
+    
+    background: #f5f3f3;
+    
+    height: 100vh;
+}
+
+.Intro  .memeToCoin{
+    width: 58%;
+    margin-top: 18rem;
+    margin-bottom: 9rem;
+    background: #f5f3f3;
+}
+
+.Intro  .memeToCoin .text1 h1{
+
+font-family: 'Poppins';
+font-size: 50px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-transform: none;
+}
+
+.Intro  .memeToCoin .text2 h2{
+    margin-bottom: rem;
+    margin-left: 8.5rem;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 300;
+    
+    text-transform:none;
+    
+}
+
+
+
+.Intro  .memeToCoin button{
+    width: 239px;
+height: 58px;
+flex-shrink: 0;
+border-radius: 20px;
+background: #2696BA;
+color: #FFF;
+line-height:unset;
+font-family:Arial, Helvetica, sans-serif;
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 400;
+margin-top: 2rem;
+margin-left: 8.6rem;
+border:none;
+}
+
+.Intro .memeToCoin .icons{
+    display: flex;
+    margin-top: 1rem;
+    margin-left: 8.6rem;
+}
+
+.Intro .bitcoinLogo img{
+    margin-top: 13rem;
+    margin-left: 1.5rem;
+    width: 20rem;
+    background: #f5f3f3;
+}
+
+.about{
+    display: flex;
+    
+}
+
+.about .pics1{
+    width: 100%;
+   margin-left: 6rem;
+    
+}
+
+.about .pics1 img{
+    width: 70%;
+    height: 70%rem;
+}
+
+h1{
+    text-align: center;
+    
+}
+
+.about .aboutDesc{
+    margin-top: 5rem;
+    padding-right: 4rem;
+    width: 100%;
+    
+
+    text-align: justify;
+font-family: Kadwa;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: none;
+}
+
+.about .aboutDesc button{
+    width: 211.204px;
+height: 40px;
+flex-shrink: 0;
+background: #2696BA;
+color: #FFF;
+
+font-family:Arial, Helvetica, sans-serif;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.25);
+border-radius:20%;
+border: none;
+}
+
+.features{
+    background: #f5f3f3;
+    
+    height: 60vh;
+    
+    display: flex;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    margin-bottom: 14rem;
+}
+
+.features .feature1{
+    text-align: center;
+    width:33.33%;
+}
+.features .feature1 img{
+    width: 110px;
+height: 110px;
+}
+
+.features .feature2{
+    width:33.33%;
+   text-align: center;
+}
+
+.features .feature2 img{
+    width: 110px;
+height: 110px;
+}
+.features .feature3{
+    width:33.33%;
+    text-align: center;
+}
+.features .feature3 img{
+    width: 110px;
+    height: 110px;
+}
+h3{
+    color: #000;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+}
+p{
+    font-family: Poppins;
+}
+.sponsors{
+    display:flex
+}
+.sponsors img{
+    width: 7rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-bottom: 15rem;
+}
+p{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+
+.buysell{
+    display: flex;
+    
+}
+
+.buysell .pics1{
+    width: 100%;
+   margin-left: 6rem;
+    
+}
+
+.buysell .pics1 img{
+    width: 70%;
+    height: 70%rem;
+}
+
+h1{
+    text-align: center;
+    
+}
+
+.buysell .buysellDesc{
+    margin-top: 5rem;
+    padding-left: 4rem;
+    width: 100%;
+    
+
+    text-align: justify;
+font-family: Kadwa;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: none;
+}
+
+.buysell .buysellDesc button{
+    width: 211.204px;
+height: 40px;
+flex-shrink: 0;
+background: #2696BA;
+color: #FFF;
+
+font-family:Arial, Helvetica, sans-serif;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.25);
+border-radius:20%;
+border: none;
+}
+
+footer{
+    height: 60vh;
+    background: #000;
+    
+}
+
+/* nav ul{
+    display: flex;
+    text-align: right;
+}
+
+nav ul li{
+    padding: 3rem;
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+nav ul li a{
+    text-align: right;
+    text-decoration: none;
+    
+} */
