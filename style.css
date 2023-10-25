@@ -336,6 +336,55 @@ footer .contactus{
     padding-top: 4rem;
 }
 
+footer .headings{
+    display: flex;
+    
+    
+    
+}
+footer .headings div{
+    padding-top: 2rem;
+  width: 33.33%;
+  text-align: center;
+  color: #FFF;
+
+
+}
+
+footer .heading div h2{
+    font-family: Poppins;
+font-size: 25px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+
+footer .logotext .headings .heading1 ul li{
+    list-style: none;
+    color: #F90;
+    border-right: 5px solid rgb(253, 253, 253);
+text-align: center;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+padding-top: 0.3rem;
+}
+
+footer .logotext .headings .heading2 ul li{
+    list-style: none;
+    color: #F90;
+    border-right: 5px solid rgb(253, 253, 253);
+padding-top: 0.65rem;
+}
+
+footer .logotext .headings .heading3 ul li{
+    list-style: none;
+    color: #F90;
+    padding-top: 0.65rem;
+}
+
 footer .contactus h2{
     color: #FFF;
 
